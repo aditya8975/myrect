@@ -23,8 +23,7 @@ ReactDOM.render(
      <img src={img} />
   </div>
   </div>
-  ,document.getElementById('root')
-);
+  ,document.getElementById('root'));
 
 
 
