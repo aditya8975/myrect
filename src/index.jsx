@@ -12,11 +12,22 @@ import ReactDOM from 'react-dom'
 // </div>
 //   ,document.getElementById('root')
 // );
+const customBox = {
+  display:"flex",
+  flexDriection: "row",
+  flexWrap: "wrap",
+  alignContent:"center",
+  justifyContent: "space-evenly",
+  alignItems: "center",
+}
+
 const img="https://picsum.photos/200";
 ReactDOM.render(
   <div>
+    {/* adding css by classes */}
     <h1 className="title">My Faviroute food</h1>
-   <div className='box'>
+    {/* inline css with css object */}
+   <div style={customBox}>
      <img src={img} />
      <img src={img} />
      <img src={img} />
